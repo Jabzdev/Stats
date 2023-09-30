@@ -9,6 +9,7 @@ body {
     text-align: center;
     justify-content: center;
     color: white;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .main {
@@ -16,7 +17,6 @@ body {
     margin-top: 100px;
     width: 900px;
     display: flex;
-    border: 1px solid white;
     border-radius: 10px;
     padding-bottom: 0;
 }
@@ -31,26 +31,57 @@ body {
 
 .description-side {
     padding: 30px;
+    width: 400px;
 }
 .pic-side {
     width: 450px;
     padding: 0;
+    margin-left: auto;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background: url(images/image-header-desktop.jpg);
 }
 .title {
     text-align: left;
     justify-content: center;
-    padding-left: 20px;
+    padding-left: 30px;
     margin-bottom: 30px;
+    font-size: 15px;
 }
 span {
     color: rgba(175, 10, 197, 0.861);
 }
 
 .para {
-    border: 1px solid white;
     text-align: left;
     justify-content: center;
     margin-bottom: 40px;
-    margin-left: 3px;
+    padding-left: 30px;
+    font-size: 15px;
+    color: rgb(196, 196, 196);
+}
+.noti {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    margin-top: 80px;
+}
 
+.comp {
+    text-align: left;
+}
+.temp {
+    text-align: left;
+}
+.que {
+    text-align: left;
+}
+
+.no {
+    font-weight: bold;
+}
+
+.p1 {
+    color: rgb(196, 196, 196);
+    font-size: 12px;
 }
